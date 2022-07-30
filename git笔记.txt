@@ -57,5 +57,14 @@ git checkout -d dev  删除分支 站在主分支上
 到公司先查看分支  再切换或者创建分支 不要在空文件里创建新分支  会覆盖master
 分支冲突先手动处理 后面vs会自动处理
 
+https://github.com/lixisheng12/git_study
+git remote add peiqi https://github.com/lixisheng12/git_study  关联到远程
+git push peiqi master 推送到远程
+
+
+
+
+
+
 
 
