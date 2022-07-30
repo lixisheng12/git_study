@@ -1,0 +1,61 @@
+1.配置自己的名字和邮箱
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+git config  user.name 查看用户名
+git config  user.email 查看邮箱名
+
+C:\Users\Administrator\.gitconfig   git的存放地址
+
+mkdir  创建文件夹
+cd 文件夹   进入文件
+cd ../ 跳到上一级
+ls  显示文件
+pwd  显示当前目录
+cat a.txt 只查看内容
+clear 清屏
+
+vi test.txt 创建或修改文件
+i 编辑
+esc : wq 保存并退出
+esc : q! 不保存退出
+
+window 
+cls 清屏
+dir 显示文件
+git 为微小的liunx 
+
+git init 初始化创库
+git add 文件   将文件提交到暂存区
+会报LF will be replaced by CRLF in a.txt
+git config --global core.autocrlf false  别自动转换和不需要提示
+git status 查看状态
+git commit -m "this is NO.1 comit”  提交信息
+git add ./* 提交所有
+
+
+比较差异（了解）
+git diff  暂存与工作
+git diff --cached 版本与缓存
+git diff mastar 版本与工作
+
+git reflog  查看版本
+git reset --hard 版本号  回到指定版本
+
+提交到版本的才能删除
+git rm x.txt   删除文件
+git rm -r dome  删除文件夹
+
+创建并切换分支
+git checkout -b dev
+
+git branch  查看有几个分支
+git checkout dev  切换到指定分支
+git merge dev 主分支合并dev 站在主分支上
+git checkout -d dev  删除分支 站在主分支上
+
+到公司先查看分支  再切换或者创建分支 不要在空文件里创建新分支  会覆盖master
+分支冲突先手动处理 后面vs会自动处理
+
+
+
